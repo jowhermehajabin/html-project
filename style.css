@@ -102,11 +102,11 @@ nav a:hover {
 
 .second-section {
   background: linear-gradient(
-          to right,
-          rgba(7, 90, 174, 1),
-          rgba(6, 122, 224, 0)
-      ),
-      url(hero-free-img.jpg);
+      to right,
+      rgba(7, 90, 174, 1),
+      rgba(6, 122, 224, 0)
+    ),
+    url(hero-free-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
@@ -220,18 +220,18 @@ padding-top: 30px;
 
 .do-sec {
   background-color: rgba(7, 90, 174, 1);
-  padding: 80px 3%;
+  padding: 80px 4%;
   color: white;
 }
 
 .do-sec h3 {
-  font-size: 35px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
 .do-sec p {
-  margin-bottom: 30px;
-  font-size: 16px;
+  margin-bottom: 50px;
+  font-size: 19.5px;
 }
 
 .aside {
@@ -254,6 +254,7 @@ padding: 0 8%; */
 
 .aside div p {
   margin-bottom: 60px;
+  font-size: 19px;
 }
 
 .advice {
@@ -265,10 +266,11 @@ padding: 0 8%; */
 }
 
 .aside h3 {
-  font-size: 38px;
+  font-size: 45px;
   line-height: 1.4;
   margin-bottom: 25px;
 }
+
 .refer {
   flex: 2;
   display: flex;
@@ -298,11 +300,11 @@ padding: 0 8%; */
 
 .testimony {
   background: linear-gradient(
-          to right,
-          rgba(6, 122, 224, 0),
-          rgba(7, 90, 174, 1)
-      ),
-      url(testimonials-free-img.jpg);
+      to right,
+      rgba(6, 122, 224, 0),
+      rgba(7, 90, 174, 1)
+    ),
+    url(testimonials-free-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top left;
@@ -326,13 +328,13 @@ padding: 0 8%; */
   margin-left: 600px;
 }
 
-.testimony h2{
-font-size: 35px;
-margin-bottom: 40px;
+.testimony h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
 }
 
-.testimony p{
-margin:  20px 0;
+.testimony p {
+  margin: 20px 0;
 }
 
 article {
@@ -342,13 +344,22 @@ article {
 
 .article {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   background-color: #ffffff;
 }
 
-article h2 {
-  font-size: 40px;
+article h4 {
+  font-size: 45px;
+}
+
+.story-with-heading {
+  padding: 50px 60px;
+  /* margin-bottom: 100px; */
+}
+
+.story p {
+  margin: 20px 0;
 }
 
 .help {
