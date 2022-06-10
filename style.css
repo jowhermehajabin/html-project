@@ -345,7 +345,7 @@ article {
 .article {
   display: flex;
   /* align-items: center; */
-  justify-content: center;
+  /* justify-content: center; */
   background-color: #ffffff;
 }
 
@@ -355,12 +355,25 @@ article h4 {
 
 .story-with-heading {
   padding: 50px 60px;
-  /* margin-bottom: 100px; */
 }
 
 .story p {
-  margin: 20px 0;
+  font-size: 19px;
+  /* margin-bottom: 40px; */
 }
+
+.story-one {
+  margin-top: 28px;
+  margin-bottom: 50px;
+}
+
+.story-2 {
+  margin-bottom: 60px;
+}
+
+/* .story-with-heading a {
+  margin-top: 100px;
+} */
 
 .help {
   background: rgba(7, 90, 174, 1);
